@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Resto Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Resto Demo</h1>
+        <p>Découvrez les restaurants près de chez vous.</p>
+    </header>
+
+    <main>
+        <section>
+        <h2>Rechercher un restaurant</h2>
+
+       <input
+        type="text"
+        placeholder="Nom du restaurant..."
+        aria-label="Rechercher un restaurant"
+>
+        <button>Rechercher</button>
+        <button id="clear-search">Effacer</button>
+        
+    </section>
+
+    <section>
+        <h2>Restaurants populaires</h2>
+        <p id="no-results">Aucun restaurant trouvé.</p>
+        <div class="restaurants">
+
+            <div class="restaurant-card">
+                <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5" alt="Le Petit Breton">
+                <h3>Te voy a matar cabron</h3>
+                <p class="category">🥞 Crêperie</p>
+                <p class="location">📍 Rennes</p>
+                <p>⭐ 4.7</p>
+                <a href="le-petit-breton.html">
+                    <button class="view-restaurant">Voir le restaurant</button>
+                </a>
+            </div>
+
+            <div class="restaurant-card">
+                <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5" alt="Le Petit Breton">
+                <h3>La Bella Italia</h3>
+                <p class="category">🍕 Restaurant italien</p>
+                <p class="location">📍 Rennes</p>
+                <p>⭐ 4.5</p>
+                <a href="la-bella-italia.html">
+                    <button class="view-restaurant">Voir le restaurant</button>
+                </a>
+            </div>
+
+            <div class="restaurant-card">
+                <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5" alt="Le Petit Breton">
+                <h3>Tokyo Sushi</h3>
+                <p class="category">🍣 Restaurant japonais</p>
+                <p class="location">📍 Rennes</p>
+                <p>⭐ 4.8</p>
+                <a href="tokyo-sushi.html">
+                    <button class="view-restaurant">Voir le restaurant</button>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+      
+    </main>
+ <script src="script.js"></script>
+</body>
+
+</html>
